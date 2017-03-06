@@ -1,6 +1,8 @@
 package lightsysnetwork;
 
-import java.util.ArrayList;
+import java.util.*;
+import org.apache.commons.math3.ml.clustering.Cluster;
+import org.apache.commons.math3.ml.clustering.DBSCANClusterer;
 
 /**
  *
@@ -11,7 +13,7 @@ public class AnimalCorrelator {
         DBSCANClusterer scanLuster;
         
         scanLuster = new DBSCANClusterer(1, 200);
-        ArrayList<Cluster<Packet>> clusters = scanLuster.cluster(animalArray); 
+        List<Cluster<Packet>> clusters = scanLuster.cluster(animalArray); 
         int i = 0;
 
 	for(Cluster c : clusters){
