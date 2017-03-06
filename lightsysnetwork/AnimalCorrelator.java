@@ -28,6 +28,6 @@ public class AnimalCorrelator {
 
 		System.out.println();
 	}
-	        
+	return null;        
     }
 }
