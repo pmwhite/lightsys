@@ -48,3 +48,9 @@ So, could our algorithms scale to the national level? Well, sort of. Our algorit
 6. Make more use of the time that people are on the internet, specifically how they relate in usage at the same time.
 7. Tranform our techniques and algorithm to be more continuous; it might be insightful to be able to see correlation level in a certain window of time. Maybe we could create a graph of the correlation over time. It would be interesting to see if consistent correlation might be more telling than spikes in correlation between animals.
 8. Somehow overcome the O(n^2) problem on the number of ip addresses. I feel like it should be possible to beat, maybe through some type of dynamic programming
+
+## Credits
+
+Our team included Timothy Smith, Justin Stallard, and Philip White (myself).
+
+Special thanks to Greg Beeley for proposing the project, collecting the packet data, answering questions, and supporting us throughout the week.
