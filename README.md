@@ -2,7 +2,7 @@
 
 From project description:
 
-The solution to communications security is often viewed as resting entirely on encryption. However, encryption often obscures the "trees" while leaving the proverbial "forest" in plain view. In other words, individual messages and content are encrypted but the communications metadata is far more revealing than often thought. This project is a proof-of-concept to demonstrate the dangers of focusing on encryption while ignoring the metadata problem.
+*The solution to communications security is often viewed as resting entirely on encryption. However, encryption often obscures the "trees" while leaving the proverbial "forest" in plain view. In other words, individual messages and content are encrypted but the communications metadata is far more revealing than often thought. This project is a proof-of-concept to demonstrate the dangers of focusing on encryption while ignoring the metadata problem.*
 
 What we were given to make sense of were packet files in csv form. The only information we had was the time the packet was recieved, the length of the packet, the direction the packet was heading, and the anonymous ip addresses (we were given animal names instead of actual ip addresses). 
 
